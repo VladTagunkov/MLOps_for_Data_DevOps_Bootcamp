@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/220942522415929673/4eae1f2ffd9f41a6b333efa6504cec4a/artifacts
+deleted_time: 1741353975827
+end_time: 1741353935811
+entry_point_name: ''
+experiment_id: '220942522415929673'
+lifecycle_stage: deleted
+run_id: 4eae1f2ffd9f41a6b333efa6504cec4a
+run_name: worried-bee-922
+run_uuid: 4eae1f2ffd9f41a6b333efa6504cec4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741353935802
+status: 4
+tags: []
+user_id: vlad_tagunkov

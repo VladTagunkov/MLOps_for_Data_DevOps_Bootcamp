@@ -1,0 +1,9 @@
+training_set:
+  object_type: pipeline
+  object_uuid: data_preparation
+  outdated_after:
+    seconds: 600
+  repo_path: /Users/vlad_tagunkov/Work/STUDY/EPAM_TRAININGS/MLOps_for_Data_DevOps/mlops-zoomcamp/02-experiment-tracking/homework/mlops
+  settings:
+    build:
+      partitions: 1

@@ -1,0 +1,82 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    global_data_product:
+      uuid: training_set
+  downstream_blocks:
+  - xgboost
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: trainig set
+  retry_config: null
+  status: failed
+  timeout: null
+  type: global_data_product
+  upstream_blocks: []
+  uuid: trainig_set
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - xgboost
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: Hyperparameter tuning/XGBoost
+  retry_config: null
+  status: updated
+  timeout: null
+  type: transformer
+  upstream_blocks: []
+  uuid: hyperparameter_tuning/xgboost
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: XGBoost
+  retry_config: null
+  status: updated
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - trainig_set
+  - hyperparameter_tuning/xgboost
+  uuid: xgboost
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2025-03-06 10:33:08.692362+00:00'
+data_integration: null
+description: First Data preparation pipeline.
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: Data preparation
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags: []
+type: python
+uuid: data_preparation
+variables:
+  early_stopping_rounds: 1
+  max_evaluations: 1
+  split_on_feature: lpep_pickup_datetime
+  split_on_feature_value: '2024-02-01'
+  target: duration
+variables_dir: /Users/vlad_tagunkov/.mage_data/mlops
+widgets: []

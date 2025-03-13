@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/220942522415929673/e9f6d054d18b4ad2864c069afdf76f46/artifacts
+end_time: 1741353955607
+entry_point_name: ''
+experiment_id: '220942522415929673'
+lifecycle_stage: active
+run_id: e9f6d054d18b4ad2864c069afdf76f46
+run_name: salty-kite-712
+run_uuid: e9f6d054d18b4ad2864c069afdf76f46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741353953351
+status: 3
+tags: []
+user_id: vlad_tagunkov
