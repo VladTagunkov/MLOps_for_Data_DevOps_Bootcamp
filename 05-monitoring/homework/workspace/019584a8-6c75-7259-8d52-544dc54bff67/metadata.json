@@ -1,0 +1,31 @@
+{
+  "id": "019584a8-6c75-7259-8d52-544dc54bff67",
+  "name": "Homework05",
+  "description": "Project for the homework 05",
+  "dashboard": {
+    "name": "Homework05",
+    "panels": [
+      {
+        "type": "evidently:dashboard_panel:DashboardPanelCounter",
+        "id": "019584b0-9ef1-7915-bd6f-d4f73c5e6cae",
+        "title": "Homework 05 Dashboard",
+        "filter": {
+          "metadata_values": {},
+          "tag_values": [],
+          "include_test_suites": false
+        },
+        "size": 2,
+        "agg": "none",
+        "value": null,
+        "text": null
+      }
+    ],
+    "tabs": [],
+    "tab_id_to_panel_ids": {}
+  },
+  "team_id": null,
+  "org_id": null,
+  "date_from": null,
+  "date_to": null,
+  "created_at": "2025-03-11T11:03:05.205893"
+}
